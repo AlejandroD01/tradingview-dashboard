@@ -16,6 +16,8 @@ export default function RootLayout({
         <title>TradingView Financial Dashboard</title>
         <meta name="description" content="Real-time financial data dashboard with interactive TradingView widgets" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Alejandro D"></meta>
+        <link rel="icon"  href="/favicon.png" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
